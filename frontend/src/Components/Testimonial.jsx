@@ -4,7 +4,7 @@ import pp from "../assets/pp.png";
 function Testimonials() {
   return (
     <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 gap-2 py-[5rem] bg-fixed bg-cover bg-[url('./assets/bg1.jpg')]">
-      <div className=" flex ml-4 mr-4 md:ml-16 md:mr-16 lg:ml-[8rem] p-5 my-2 bg-gray-900 rounded-md shadow-lg items-center">
+      <div className=" flex ml-4 mr-4 md:ml-10  md:mr-10 lg:ml-[8rem] p-5 my-2 bg-gray-900 rounded-md shadow-lg items-center">
         <img
           src={pp}
           alt=""
@@ -22,7 +22,7 @@ function Testimonials() {
           </p>
         </div>
       </div>
-      <div className="flex mr-4 ml-4 md:mr-16 md:ml-16 lg:mr-[8rem] p-5 my-2 bg-gray-900 rounded-md shadow-lg items-center">
+      <div className="flex mr-4 ml-4 md:mr-10 md:ml-10 lg:mr-[8rem] p-5 my-2 bg-gray-900 rounded-md shadow-lg items-center">
         <img
           src={pp}
           alt=""
